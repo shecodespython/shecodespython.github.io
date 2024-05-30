@@ -5,7 +5,9 @@ title: My GitHub Pages Website
 
 # About Me
 
-Hi, I'm [Your Name], a [Your Profession/Interest]. Welcome to my personal website!
+### Welcome!
+Hey! I'm Emőke, a first-year Data Science master's student.
+Follow me on my Data Science journey!
 
 ## Contact Information
 
