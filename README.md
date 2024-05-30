@@ -1,5 +1,4 @@
 ---
-layout: default
 title: My GitHub Pages Website
 ---
 
