@@ -1,7 +1,3 @@
----
-title: My GitHub Pages Website
----
-
 # About Me
 
 Hey! I'm Emőke, a first-year Data Science master's student.
