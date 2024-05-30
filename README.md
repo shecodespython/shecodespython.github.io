@@ -1,8 +1,3 @@
----
-layout: default
-title: My GitHub Pages Website
----
-
 # About Me
 
 ### Welcome!
@@ -11,14 +6,13 @@ Follow me on my Data Science journey!
 
 ## Contact Information
 
-- **Email:** your.email@example.com
-- **GitHub:** [YourGitHubUsername](https://github.com/YourGitHubUsername)
+- **GitHub:** [shecodespython](https://github.com/shecodespython)
 
 # Projects
 
-## Project 1: Awesome Project
-- **Description:** A brief description of your awesome project.
-- **GitHub Repository:** [Link to the repository](https://github.com/YourGitHubUsername/awesome-project)
+## Project 1: Navigating Ethics in Facial Recognition: A Comparative Review of Regulations in Law Enforcement
+- **Description:** This is a research poster on the topic of facial recognition regulation ethics.
+- **Poster (PDF):** [View PDF](files/Ethics_Final_Project_Poster_Rafain_Emoke.pdf)
 
 ## Project 2: Another Project
 - **Description:** A brief description of another project.
