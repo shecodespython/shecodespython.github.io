@@ -1,6 +1,5 @@
 # About Me
 
-### Welcome!
 Hey! I'm Emőke, a first-year Data Science master's student.
 Follow me on my Data Science journey!
 
