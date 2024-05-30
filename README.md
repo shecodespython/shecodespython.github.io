@@ -1,7 +1,4 @@
----
-layout: default
-title: Emőke's GitHub Pages
----
+# Emőke's GitHub Pages
 
 # About Me
 
