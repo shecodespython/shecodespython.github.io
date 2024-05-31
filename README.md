@@ -27,34 +27,34 @@ Follow me on my Data Science journey!
 - **Visualization (HTML):** 
 <div class="slideshow-container">
     <div class="mySlides fade">
-         <iframe src="files/heart_disease_clf/max_heart_rate.png" width="100%" height="100%"></iframe>
+         <iframe src="files/heart_disease_clf/max_heart_rate.png" width="100%" height="600px"></iframe>
     </div>
     <div class="mySlides fade">
-        <iframe src="files/heart_disease_clf/heart_disease_by_gender.png" width="100%" height="100%"></iframe>
+        <iframe src="files/heart_disease_clf/heart_disease_by_gender.png" width="100%" height="600px"></iframe>
     </div>
     <div class="mySlides fade">
-        <iframe src="files/heart_disease_clf/resting_blood_pressure_by_age.png" width="100%" height="100%"></iframe>
+        <iframe src="files/heart_disease_clf/resting_blood_pressure_by_age.png" width="100%" height="600px"></iframe>
     </div>
     <div class="mySlides fade">
-        <iframe src="files/heart_disease_clf/thalium_stress.png" width="100%" height="100%"></iframe>
+        <iframe src="files/heart_disease_clf/thalium_stress.png" width="100%" height="600px"></iframe>
     </div>
     <div class="mySlides fade">
-        <iframe src="files/heart_disease_clf/age_vs_chol.png" width="100%" height="100%"></iframe>
+        <iframe src="files/heart_disease_clf/age_vs_chol.png" width="100%" height="600px"></iframe>
     </div>
     <div class="mySlides fade">
-        <iframe src="files/heart_disease_clf/chol_vs_max_heart_rate.png" width="100%" height="100%"></iframe>
+        <iframe src="files/heart_disease_clf/chol_vs_max_heart_rate.png" width="100%" height="600px"></iframe>
     </div>
     <div class="mySlides fade">
-        <iframe src="files/heart_disease_clf/imp_rez_1.png" width="100%" height="100%"></iframe>
+        <iframe src="files/heart_disease_clf/imp_rez_1.png" width="100%" height="600px"></iframe>
     </div>
     <div class="mySlides fade">
-        <iframe src="files/heart_disease_clf/imp_rez_2.png" width="100%" height="100%"></iframe>
+        <iframe src="files/heart_disease_clf/imp_rez_2.png" width="100%" height="600px"></iframe>
     </div>
     <div class="mySlides fade">
-        <iframe src="files/heart_disease_clf/baseline_accuracies.png" width="100%" height="100%"></iframe>
+        <iframe src="files/heart_disease_clf/baseline_accuracies.png" width="100%" height="600px"></iframe>
     </div>
     <div class="mySlides fade">
-        <iframe src="files/heart_disease_clf/c_value.png" width="100%" height="100%"></iframe>
+        <iframe src="files/heart_disease_clf/c_value.png" width="100%" height="600px"></iframe>
     </div>
 </div>
 
