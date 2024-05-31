@@ -25,19 +25,36 @@ Follow me on my Data Science journey!
 - **Description:** 🫀 The provided two Jupyter notebooks (labeled I. and II.) employ several Python-based Machine Learning and Data Science libraries to extract insight from data related to heart disease patients. In this project my aim is to construct a classification model to ascertain whether a patient suffers from heart disease and, if so, to determine the specific type of heart disease based on their medical records (various features).
 - **GitHub Repository:** [Link to the repository](https://github.com/shecodespython/heart-disease-prediction)
 - **Visualization (HTML):** 
-<div class="iframe-container">
-    <iframe src="files/heart_disease_clf/max_heart_rate.png" width="450px"></iframe>
-    <iframe src="files/heart_disease_clf/heart_disease_by_gender.png" width="450px"></iframe>
-</div>
 <div class="slideshow-container">
     <div class="mySlides fade">
-         <iframe src="files/heart_disease_clf/max_heart_rate.png" width="100%"></iframe>
+         <iframe src="files/heart_disease_clf/max_heart_rate.png" width="100%" height="100%"></iframe>
     </div>
     <div class="mySlides fade">
-        <iframe src="files/heart_disease_clf/heart_disease_by_gender.png" width="100%"></iframe>
+        <iframe src="files/heart_disease_clf/heart_disease_by_gender.png" width="100%" height="100%"></iframe>
     </div>
     <div class="mySlides fade">
-        <iframe src="files/heart_disease_clf/resting_blood_pressure_by_age.png" width="100%"></iframe>
+        <iframe src="files/heart_disease_clf/resting_blood_pressure_by_age.png" width="100%" height="100%"></iframe>
+    </div>
+    <div class="mySlides fade">
+        <iframe src="files/heart_disease_clf/thalium_stress.png" width="100%" height="100%"></iframe>
+    </div>
+    <div class="mySlides fade">
+        <iframe src="files/heart_disease_clf/age_vs_chol.png" width="100%" height="100%"></iframe>
+    </div>
+    <div class="mySlides fade">
+        <iframe src="files/heart_disease_clf/chol_vs_max_heart_rate.png" width="100%" height="100%"></iframe>
+    </div>
+    <div class="mySlides fade">
+        <iframe src="files/heart_disease_clf/imp_rez_1.png" width="100%" height="100%"></iframe>
+    </div>
+    <div class="mySlides fade">
+        <iframe src="files/heart_disease_clf/imp_rez_2.png" width="100%" height="100%"></iframe>
+    </div>
+    <div class="mySlides fade">
+        <iframe src="files/heart_disease_clf/baseline_accuracies.png" width="100%" height="100%"></iframe>
+    </div>
+    <div class="mySlides fade">
+        <iframe src="files/heart_disease_clf/c_value.png" width="100%" height="100%"></iframe>
     </div>
 </div>
 
