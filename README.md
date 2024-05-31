@@ -26,36 +26,38 @@ Hey! I'm Emőke, a first-year Data Science master's student. Follow me on my Dat
 - **GitHub Repository:** [Link to the repository](https://github.com/shecodespython/heart-disease-prediction)
 - **Visualizations:** 
 
-<div class="slideshow-container">
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/max_heart_rate.png">
-    </div>
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/heart_disease_by_gender.png">
-    </div>
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/resting_blood_pressure_by_age.png">
-    </div>
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/thalium_stress.png">
-    </div>
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/age_vs_chol.png">
-    </div>
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/chol_vs_max_heart_rate.png">
-    </div>
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/imp_rez_1.png">
-    </div>
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/imp_rez_2.png">
-    </div>
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/baseline_accuracies.png">
-    </div>
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/c_value.png">
+<div class="fixed-size-container">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="files/heart_disease_clf/max_heart_rate.png">
+        </div>
+        <div class="mySlides fade">
+            <img src="files/heart_disease_clf/heart_disease_by_gender.png">
+        </div>
+        <div class="mySlides fade">
+            <img src="files/heart_disease_clf/resting_blood_pressure_by_age.png">
+        </div>
+        <div class="mySlides fade">
+            <img src="files/heart_disease_clf/thalium_stress.png">
+        </div>
+        <div class="mySlides fade">
+            <img src="files/heart_disease_clf/age_vs_chol.png">
+        </div>
+        <div class="mySlides fade">
+            <img src="files/heart_disease_clf/chol_vs_max_heart_rate.png">
+        </div>
+        <div class="mySlides fade">
+            <img src="files/heart_disease_clf/imp_rez_1.png">
+        </div>
+        <div class="mySlides fade">
+            <img src="files/heart_disease_clf/imp_rez_2.png">
+        </div>
+        <div class="mySlides fade">
+            <img src="files/heart_disease_clf/baseline_accuracies.png">
+        </div>
+        <div class="mySlides fade">
+            <img src="files/heart_disease_clf/c_value.png">
+        </div>
     </div>
 </div>
 
@@ -84,10 +86,20 @@ Hey! I'm Emőke, a first-year Data Science master's student. Follow me on my Dat
     border: none; /* Remove border if desired */
 }
 
-.slideshow-container {
-    max-width: 1000px;
+.fixed-size-container {
+    width: 100%;
+    max-width: 100%;
+    height: 600px;
+    overflow: hidden;
     position: relative;
-    margin: auto;
+}
+
+.slideshow-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     text-align: center;
 }
 
@@ -134,9 +146,18 @@ Hey! I'm Emőke, a first-year Data Science master's student. Follow me on my Dat
         slides[slideIndex-1].style.display = "block";
 
         // Adjust slideshow container height based on the current image height
+        let fixedContainer = document.querySelector(".fixed-size-container");
         let slideshowContainer = document.querySelector(".slideshow-container");
         let currentImage = slides[slideIndex-1].querySelector("img");
-        slideshowContainer.style.height = currentImage.height + "px";
+
+        // Center the image vertically within the fixed container
+        if (currentImage.height < fixedContainer.clientHeight) {
+            slideshowContainer.style.top = "50%";
+            slideshowContainer.style.transform = "translateY(-50%)";
+        } else {
+            slideshowContainer.style.top = "0";
+            slideshowContainer.style.transform = "none";
+        }
 
         setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
