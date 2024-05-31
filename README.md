@@ -26,7 +26,7 @@ Hey! I'm Emőke, a first-year Data Science master's student. Follow me on my Dat
 - **GitHub Repository:** [Link to the repository](https://github.com/shecodespython/heart-disease-prediction)
 - **Visualizations:** 
 
-<div class="slideshow-container" width="100%">
+<div class="slideshow-container">
     <div class="mySlides fade">
         <img src="files/heart_disease_clf/max_heart_rate.png">
     </div>
