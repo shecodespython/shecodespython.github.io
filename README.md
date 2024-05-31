@@ -28,34 +28,34 @@ Hey! I'm Emőke, a first-year Data Science master's student. Follow me on my Dat
 
 <div class="slideshow-container">
     <div class="mySlides fade">
-        <img src="files/heart_disease_clf/max_heart_rate.png" style="width:100%">
+        <img src="files/heart_disease_clf/max_heart_rate.png">
     </div>
     <div class="mySlides fade">
-        <img src="files/heart_disease_clf/heart_disease_by_gender.png" style="width:100%">
+        <img src="files/heart_disease_clf/heart_disease_by_gender.png">
     </div>
     <div class="mySlides fade">
-        <img src="files/heart_disease_clf/resting_blood_pressure_by_age.png" style="width:100%">
+        <img src="files/heart_disease_clf/resting_blood_pressure_by_age.png">
     </div>
     <div class="mySlides fade">
-        <img src="files/heart_disease_clf/thalium_stress.png" style="width:100%">
+        <img src="files/heart_disease_clf/thalium_stress.png">
     </div>
     <div class="mySlides fade">
-        <img src="files/heart_disease_clf/age_vs_chol.png" style="width:100%">
+        <img src="files/heart_disease_clf/age_vs_chol.png">
     </div>
     <div class="mySlides fade">
-        <img src="files/heart_disease_clf/chol_vs_max_heart_rate.png" style="width:100%">
+        <img src="files/heart_disease_clf/chol_vs_max_heart_rate.png">
     </div>
     <div class="mySlides fade">
-        <img src="files/heart_disease_clf/imp_rez_1.png" style="width:100%">
+        <img src="files/heart_disease_clf/imp_rez_1.png">
     </div>
     <div class="mySlides fade">
-        <img src="files/heart_disease_clf/imp_rez_2.png" style="width:100%">
+        <img src="files/heart_disease_clf/imp_rez_2.png">
     </div>
     <div class="mySlides fade">
-        <img src="files/heart_disease_clf/baseline_accuracies.png" style="width:100%">
+        <img src="files/heart_disease_clf/baseline_accuracies.png">
     </div>
     <div class="mySlides fade">
-        <img src="files/heart_disease_clf/c_value.png" style="width:100%">
+        <img src="files/heart_disease_clf/c_value.png">
     </div>
 </div>
 
@@ -88,6 +88,7 @@ Hey! I'm Emőke, a first-year Data Science master's student. Follow me on my Dat
     max-width: 1000px;
     position: relative;
     margin: auto;
+    text-align: center;
 }
 
 .mySlides {
@@ -95,8 +96,7 @@ Hey! I'm Emőke, a first-year Data Science master's student. Follow me on my Dat
 }
 
 .mySlides img {
-    display: block;
-    margin: auto;
+    display: inline-block;
     max-width: 100%;
     height: auto;
 }
@@ -132,6 +132,12 @@ Hey! I'm Emőke, a first-year Data Science master's student. Follow me on my Dat
         slideIndex++;
         if (slideIndex > slides.length) {slideIndex = 1}
         slides[slideIndex-1].style.display = "block";
+
+        // Adjust slideshow container height based on the current image height
+        let slideshowContainer = document.querySelector(".slideshow-container");
+        let currentImage = slides[slideIndex-1].querySelector("img");
+        slideshowContainer.style.height = currentImage.height + "px";
+
         setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
 </script>
