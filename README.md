@@ -29,6 +29,17 @@ Follow me on my Data Science journey!
     <iframe src="files/heart_disease_clf/max_heart_rate.png" width="450px"></iframe>
     <iframe src="files/heart_disease_clf/heart_disease_by_gender.png" width="450px"></iframe>
 </div>
+<div class="slideshow-container">
+    <div class="mySlides fade">
+         <iframe src="files/heart_disease_clf/max_heart_rate.png" width="100%"></iframe>
+    </div>
+    <div class="mySlides fade">
+        <iframe src="files/heart_disease_clf/heart_disease_by_gender.png" width="100%"></iframe>
+    </div>
+    <div class="mySlides fade">
+        <iframe src="files/heart_disease_clf/resting_blood_pressure_by_age.png" width="100%"></iframe>
+    </div>
+</div>
 
 ## Project 4: 🎶 Sentiment Analysis of Spotify Song Lyrics Using Machine Learning Methods
 - **Description:** This project compares three approaches to analyze the sentiment of 100 Spotify songs using their lyrics: VADER, RoBERTa (HuggingFace), and DistilRoBERTa (HuggingFace). The workflow involves data preprocessing, applying each sentiment analysis method, comparing results, and discussing use cases.
@@ -37,3 +48,65 @@ Follow me on my Data Science journey!
 ## Project 5: 🎶 Predicting Song Popularity Using Machine Learning Methods - Exploratory Data Analysis and and Regression Project
 - **Description:** This project aims to predict song popularity using regression models based on features like danceability, energy, etc. The repository covers preprocessing, analysis, modeling, evaluation, and prediction, providing insights into factors affecting song popularity.
 - **GitHub Repository:** [Link to the repository](https://github.com/shecodespython/song-popularity-prediction/tree/main)
+
+<style>
+.iframe-container {
+    display: flex;
+    width: 100%;
+    gap: 10px; /* Optional: Adds space between iframes */
+    justify-content: center; /* Center the iframes horizontally */
+}
+
+.iframe-container iframe {
+    flex: 1;
+    max-width: 600px; /* Maximum width in pixels */
+    max-height: 400px; /* Maximum height in pixels */
+    width: 100%;
+    height: auto;
+    border: none; /* Remove border if desired */
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+</style>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
