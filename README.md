@@ -26,8 +26,8 @@ Follow me on my Data Science journey!
 - **GitHub Repository:** [Link to the repository](https://github.com/shecodespython/heart-disease-prediction)
 - **Visualization (HTML):** 
 <div class="iframe-container">
-    <iframe src="files/heart_disease_clf/max_heart_rate.png" width="200px" height="200px"></iframe>
-    <iframe src="files/heart_disease_clf/heart_disease_by_gender.png" width="200px" height="200px"></iframe>
+    <iframe src="files/heart_disease_clf/max_heart_rate.png" width="450px"></iframe>
+    <iframe src="files/heart_disease_clf/heart_disease_by_gender.png" width="450px"></iframe>
 </div>
 
 ## Project 4: 🎶 Sentiment Analysis of Spotify Song Lyrics Using Machine Learning Methods
