@@ -1,9 +1,9 @@
 # Emőke's GitHub Pages
 
+
 # About Me
 
-Hey! I'm Emőke, a first-year Data Science master's student.
-Follow me on my Data Science journey!
+Hey! I'm Emőke, a first-year Data Science master's student. Follow me on my Data Science journey!
 
 ## Contact Information
 
@@ -25,22 +25,7 @@ Follow me on my Data Science journey!
 - **Description:** 🫀 The provided two Jupyter notebooks (labeled I. and II.) employ several Python-based Machine Learning and Data Science libraries to extract insight from data related to heart disease patients. In this project my aim is to construct a classification model to ascertain whether a patient suffers from heart disease and, if so, to determine the specific type of heart disease based on their medical records (various features).
 - **GitHub Repository:** [Link to the repository](https://github.com/shecodespython/heart-disease-prediction)
 - **Visualizations:** 
-<div class="slideshow-container">
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/imp_rez_1.png" style="width:100%">
-    </div>
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/imp_rez_2.png" style="width:100%">
-    </div>
-</div>
-<div class="slideshow-container">
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/age_vs_chol.png" style="width:100%">
-    </div>
-    <div class="mySlides fade">
-        <img src="files/heart_disease_clf/chol_vs_max_heart_rate.png" style="width:100%">
-    </div>
-</div>
+
 <div class="slideshow-container">
     <div class="mySlides fade">
         <img src="files/heart_disease_clf/max_heart_rate.png" style="width:100%">
@@ -48,16 +33,24 @@ Follow me on my Data Science journey!
     <div class="mySlides fade">
         <img src="files/heart_disease_clf/heart_disease_by_gender.png" style="width:100%">
     </div>
-</div>
-<div class="slideshow-container">
     <div class="mySlides fade">
         <img src="files/heart_disease_clf/resting_blood_pressure_by_age.png" style="width:100%">
     </div>
     <div class="mySlides fade">
         <img src="files/heart_disease_clf/thalium_stress.png" style="width:100%">
     </div>
-</div>
-<div class="slideshow-container">
+    <div class="mySlides fade">
+        <img src="files/heart_disease_clf/age_vs_chol.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+        <img src="files/heart_disease_clf/chol_vs_max_heart_rate.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+        <img src="files/heart_disease_clf/imp_rez_1.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+        <img src="files/heart_disease_clf/imp_rez_2.png" style="width:100%">
+    </div>
     <div class="mySlides fade">
         <img src="files/heart_disease_clf/baseline_accuracies.png" style="width:100%">
     </div>
@@ -65,6 +58,7 @@ Follow me on my Data Science journey!
         <img src="files/heart_disease_clf/c_value.png" style="width:100%">
     </div>
 </div>
+
 ## Project 4: 🎶 Sentiment Analysis of Spotify Song Lyrics Using Machine Learning Methods
 - **Description:** This project compares three approaches to analyze the sentiment of 100 Spotify songs using their lyrics: VADER, RoBERTa (HuggingFace), and DistilRoBERTa (HuggingFace). The workflow involves data preprocessing, applying each sentiment analysis method, comparing results, and discussing use cases.
 - **GitHub Repository:** [Link to the repository](https://github.com/shecodespython/sentiment-analysis-of-spotify-song-lyrics)
