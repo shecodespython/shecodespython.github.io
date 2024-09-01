@@ -23,8 +23,6 @@ Hey! I'm Emőke, a first-year Data Science master's student. Follow me on my Dat
 ## Project 3: Predicting Heart Disease Using Machine Learning Methods - Exploratory Data Analysis and Classification Project
 - **Description:** 🫀 The provided two Jupyter notebooks (labeled I. and II.) employ several Python-based Machine Learning and Data Science libraries to extract insight from data related to heart disease patients. In this project my aim is to construct a classification model to ascertain whether a patient suffers from heart disease and, if so, to determine the specific type of heart disease based on their medical records (various features).
 - **GitHub Repository:** [Link to the repository](https://github.com/shecodespython/heart-disease-prediction)
-- **Visualization (Matplotlib):** 
-<img src="files/heart_disease_clf/baseline_accuracies.png" width="100%" height="600px">
 
 ## Project 4: 🎶 Sentiment Analysis of Spotify Song Lyrics Using Machine Learning Methods
 - **Description:** This project compares three approaches to analyze the sentiment of 100 Spotify songs using their lyrics: VADER, RoBERTa (HuggingFace), and DistilRoBERTa (HuggingFace). The workflow involves data preprocessing, applying each sentiment analysis method, comparing results, and discussing use cases.
