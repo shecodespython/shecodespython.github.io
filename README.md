@@ -1,5 +1,3 @@
-# Emőke's GitHub Pages
-
 # About Me
 
 Hey! I'm Emőke, a first-year Data Science master's student. Follow me on my Data Science journey!
